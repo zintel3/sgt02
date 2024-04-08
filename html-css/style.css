@@ -1,0 +1,59 @@
+p{
+    color: blue;
+}
+
+/* Universal Selector */
+* {
+    color: brown;
+  }
+  /* Element Selector */
+  p {
+    color: blue;
+  }
+  /* Class Selector */
+  .parag1 {
+    color: aquamarine;
+  }
+  /* ID Selector */
+  #parag2 {
+    color: orangered;
+  }
+
+/* Attribute selector */
+[href] {
+    color: rgb(108, 108, 169);
+  }
+  a[href] {
+    color: orange;
+  }
+  a[href="www.example1.com"] {
+    color: pink;
+  }
+
+  /* Grouping Selector */
+/* p,
+h2 {
+  font-size: medium;
+} */
+.parag1,
+#parag2,
+h4 {
+  font-size: 20px;
+  background-color: bisque;
+}
+
+/* Pseudo classes */
+h4:hover {
+    background-color: skyblue;
+    color: black;
+  }
+  /* Pseudo elements */
+  h1::first-letter {
+    color: blue;
+  }
+  h1::before {
+    content: "Placed before h1: ";
+  }
+  h1::after {
+    content: " : Placed before h1";
+  }

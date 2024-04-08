@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar{
+    background-color: #3b4997;
+    height: 70px;
+    width: 100%;
+    color: white;
+    position: fixed;
+}
+
+.logo{
+
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.menu{
+    margin-left: 800px;
+    padding-top: 27px;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+  
+}
+
+.menu ul li a:hover{
+    color: lightskyblue; 
+    font-style: italic; 
+}
+
+.banner{
+    background-color: #3b4999;
+    height: 600px;
+    text-align: center;
+    color: white;
+
+}
+
+.banner img{
+    border-radius: 100px;
+    height: 150;
+    border: 6px solid white;
+    margin-top: 100px;
+}
+
+.banner h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner button{
+    margin-top: 60px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+}
+
+.banner button:hover{
+    background-color: #3b4999;
+    border: 1px solid white;
+    color: white;
+}
+
+h1 span:before{
+    content: " ";
+    animation: gerak infinite 9s ease;
+    transform: translateY(-50%);
+    color: lightblue;
+    font-saiz: 70px;    
+}
+
+@keyframes gerak{
+    0%{
+        content: "Welcome to";
+    }
+    20%{
+        content: "My Personal";
+    }
+    40%{
+        content: "and Dev Page";
+    }
+    60%{
+        content: "My Pen Name";
+    }
+    80%{
+        content: "is AZAB";
+    }
+    100%{
+        content: "nicer...";
+    }
+}
+
+.box-edu{
+    text-align: center;
+    color: #4d4d4d;
+    margin-top: 90px;
+    align-content: center;
+}
+
+.box-kiri, .box-tengah, .box-kanan{
+    width: 300px;
+    height: 350px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 30px 30px;
+    margin: 70px 20px 20px 55px;
+    border-radius: 10px;
+    float:left;
+}
+
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover{
+    background-color: #3b5999;
+    color: white;
+}
+
+.box-edu h3, p{
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 0px 20px;
+    
+}
+
+.box-soft {
+    text-align: center;
+    color: #4d4d4d;
+    margin: 0px auto;
+    margin-top: 560px;
+    
+}
+
+.box-contact {
+    text-align: center;
+    color: #4d4d4d;
+    margin: 0px auto;
+    margin-top: 600px;
+
+}
+
+box-tengah{
+    text-align: center;
+    color: #4d4d4d;
+    
+}
+
+.footer{
+    background-color: #3b4999;
+    height: 60px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 600px;
+}
